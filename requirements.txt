@@ -1,7 +1,6 @@
-PyPDF2
 streamlit
-langchain.text_splitter 
-langchain_community.embeddings 
-langchain_community.vectorstores 
-langchain.chains.question_answering 
-langchain_community.chat_models 
+pypdf2
+langchain
+langchain-community
+faiss-cpu
+openai
