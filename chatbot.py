@@ -13,7 +13,10 @@ from dotenv import load_dotenv
 
 print(os.getenv("OPENAI_API_KEY"))
 #OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+load_dotenv()
 
+# Check if the API key is being loaded
+print(os.getenv("OPENAI_API_KEY"))  #
 #
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 #Upload PDF files
