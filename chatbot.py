@@ -8,6 +8,8 @@ from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
+import os
+from dotenv import load_dotenv
 
 print(os.getenv("OPENAI_API_KEY"))
 #OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
