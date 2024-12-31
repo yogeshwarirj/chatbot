@@ -45,9 +45,12 @@ if file is not None:
         length_function=len
     )
     chunks = text_splitter.split_text(text)
-    #st.write(chunks)
+    st.write(chunks)
 
 
+
+ if not OPENAI_API_KEY:
+    raise ValueError("OPENAI_API_KEY not found. Ensure it is set in the .env file.")
 
 
     # generating embedding
