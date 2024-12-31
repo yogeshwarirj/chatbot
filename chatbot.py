@@ -12,7 +12,8 @@ from langchain_community.chat_models import ChatOpenAI
 
 #OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-OPENAI_API_KEY = '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'
+#
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 #Upload PDF files
 st.header("My first Chatbot")
 
