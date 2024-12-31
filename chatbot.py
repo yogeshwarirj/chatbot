@@ -67,7 +67,9 @@ if file is not None:
             openai_api_key = OPENAI_API_KEY,
             temperature = 0,
             max_tokens = 1000,
-            model_name = "gpt-3.5-turbo"
+          #  model_name = "gpt-3.5-turbo"
+
+           model_name =  "gpt-4o-mini"
         )
 
 
