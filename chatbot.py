@@ -9,11 +9,10 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
-# Load the .env file
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
+#OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
+OPENAI_API_KEY = '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'
 #Upload PDF files
 st.header("My first Chatbot")
 
