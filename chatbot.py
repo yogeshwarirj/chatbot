@@ -49,7 +49,7 @@ if file is not None:
 
 
 
-     if not OPENAI_API_KEY:
+    if not OPENAI_API_KEY:
         raise ValueError("OPENAI_API_KEY not found. Ensure it is set in the .env file.")
 
 
